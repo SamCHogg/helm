@@ -7,3 +7,5 @@ RUN tar xzvf /tmp/helm-v2.9.1-linux-amd64.tar.gz -C /tmp && cp /tmp/linux-amd64/
 RUN apk --no-cache add python py-pip && \
     pip --no-cache-dir install awscli && \
     rm -rf /var/cache/apk/*
+
+ENTRYPOINT ["helm"]
