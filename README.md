@@ -1,2 +1,3 @@
 # helm
-Alpine Docker image with Helm tools installed for CircleCI
+
+Alpine Docker image with Helm and AWS CLI installed for CircleCI
