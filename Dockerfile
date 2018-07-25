@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.7
 
 ARG helm_version=helm-v2.9.1-linux-amd64
 ARG k8s_version=v1.11.1
