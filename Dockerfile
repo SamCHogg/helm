@@ -8,4 +8,6 @@ RUN apk --no-cache add python py-pip git && \
     pip --no-cache-dir install awscli && \
     rm -rf /var/cache/apk/*
 
+RUN helm init --client-only --skip-refresh
+
 ENTRYPOINT ["helm"]
